@@ -1,5 +1,12 @@
+import { AboutUs, Home } from "./pages";
+
 const App = () => {
-  return <div>Comming soon</div>;
+  return (
+    <div>
+      <Home />
+      <AboutUs/>
+    </div>
+  );
 };
 
 export default App;
