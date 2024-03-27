@@ -1,12 +1,13 @@
-import { shoes, statistics } from "../assets/constants";
+// import { shoes, statistics } from "../assets/constants";
+import {  statistics } from "../assets/constants";
 import { arrowRight } from "../assets/icons";
-import { bigShoe1 } from "../assets/images";
+// import { bigShoe1 } from "../assets/images";
 import Button from "../components/Button";
-import ShoeCard from "../components/ShoeCard";
-import { useState } from "react";
+// import ShoeCard from "../components/ShoeCard";
+// import { useState } from "react";
 
 const Hero = () => {
-  const [bigShoeImg, setBigShoeImg] = useState(bigShoe1);
+  // const [bigShoeImg, setBigShoeImg] = useState(bigShoe1);
 
   return (
     <section
