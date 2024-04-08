@@ -23,6 +23,13 @@
   }
 }
 
+.yellow-text {
+  color: #F0A500
+}
+.yellow-btn {
+  background-color: #F0A500
+}
+
 @layer utilities {
   .padding {
     @apply sm:px-16 px-8 sm:py-24 py-12;

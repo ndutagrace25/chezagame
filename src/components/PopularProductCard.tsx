@@ -1,37 +1,17 @@
-import { useState, useEffect } from "react";
 import { star } from "../assets/icons";
-import { products } from "../assets/constants";
-import { shoe10, shoe11, shoe12, shoe7, shoe9 } from "../assets/images";
 
 interface PopularProductCardProps {
   imgURL: string;
   name: string;
   price: string;
-  isLast: boolean;
 }
 
 const PopularProductCard = ({
   imgURL,
   name,
   price,
-  isLast,
 }: PopularProductCardProps) => {
-  const carrousel = [shoe7, shoe9, shoe10, shoe11, shoe12];
-  const [currentIndex, setCurrentIndex] = useState(0);
-
-  useEffect(() => {
-    let intervalId: number | undefined;
-
-    if (isLast) {
-      intervalId = setInterval(() => {
-        setCurrentIndex((prevIndex) => (prevIndex + 1) % products.length);
-      }, 1000);
-    }
-
-    return () => clearInterval(intervalId);
-  }, [isLast]);
-
-  const displayedImage = isLast ? carrousel[currentIndex] : imgURL;
+  const displayedImage = imgURL;
 
   return (
     <div className="flex flex-1 flex-col w-full max-sm:w-full">

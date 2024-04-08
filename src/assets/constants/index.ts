@@ -7,15 +7,11 @@ import {
   twitter,
 } from "../icons";
 import {
-  headerk50,
   bigShoe2,
   bigShoe3,
   customer1,
   customer2,
-  shoe4,
-  shoe5,
-  shoe6,
-  shoe7,
+  headerk50,
   thumbnailShoe1,
   thumbnailShoe2,
   thumbnailShoe3,
@@ -51,24 +47,24 @@ export const statistics = [
 
 export const products = [
   {
-    imgURL: shoe4,
-    name: "Chuck Taylor All Star",
-    price: "100.20 €",
+    imgURL: headerk50,
+    name: "Kenya at 50",
+    price: "KES 500",
   },
   {
-    imgURL: shoe5,
-    name: "Run Star Hike Sequins",
-    price: "190.00 €",
+    imgURL: headerk50,
+    name: "Kenya at 50",
+    price: "KES 500",
   },
   {
-    imgURL: shoe6,
-    name: "Chuck Taylor All Star",
-    price: "120.20 €",
+    imgURL: headerk50,
+    name: "Kenya at 50",
+    price: "KES 500",
   },
   {
-    imgURL: shoe7,
-    name: "Chuck 70 Y2K Heart",
-    price: "130.00 €",
+    imgURL: headerk50,
+    name: "Kenya at 50",
+    price: "KES 500",
   },
 ];
 

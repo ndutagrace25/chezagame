@@ -2,7 +2,7 @@ import {
   // CustomerReviews,
   // Footer,
   Hero,
-  // PopularProducts,
+  PopularProducts,
   // Services,
   // SpecialOffer,
   // Subscribe,
@@ -17,9 +17,10 @@ const App = () => (
     <section className="xl:padding-l wide:padding-r padding-b">
       <Hero />
     </section>
-    {/* <section className="padding">
+    <section className="padding">
       <PopularProducts />
     </section>
+    {/*
     <section className="padding">
       <SuperQuality />
     </section>
