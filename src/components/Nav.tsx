@@ -1,4 +1,4 @@
-// import { headerLogo } from "../assets/images";
+import { chezahive } from "../assets/images";
 import { hamburger } from "../assets/icons";
 import { navLinks } from "../assets/constants/index.js";
 
@@ -7,8 +7,7 @@ const Nav = () => {
     <header className="padding-x py-8 absolute z-10 w-full">
       <nav className="flex justify-between items-center max-container">
         <a href="/">
-          {/* <img src={headerLogo} alt="logo" width={200} height={10} /> */}
-          <span className="font-montserrat leading-normal text-lg text-slate-400 font-bold">ChezaHive Logo</span>
+          <img src={chezahive} alt="logo" width={100} height={5} />
         </a>
         <ul className="flex-1 flex justify-center items-center gap-28 max-lg:hidden">
           {navLinks.map((item) => (
