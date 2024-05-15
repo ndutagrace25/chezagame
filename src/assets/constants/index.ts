@@ -47,24 +47,33 @@ export const statistics = [
 
 export const products = [
   {
-    imgURL: headerk50,
-    name: "Kenya at 50",
-    price: "KES 500",
+    id: "product1",
+    name: "Kenya @50",
+    price: "KES 350 per day",
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/pushnotifications-3134c.appspot.com/o/chezahive%2F20240314_135533-min.jpg?alt=media&token=e1c4f377-aeb7-4819-9d64-64fc8bcb5fdc",
+      "https://firebasestorage.googleapis.com/v0/b/pushnotifications-3134c.appspot.com/o/chezahive%2F20240314_135624-min.jpg?alt=media&token=b84fe957-d360-4430-aced-15355c7269f1",
+      "https://firebasestorage.googleapis.com/v0/b/pushnotifications-3134c.appspot.com/o/chezahive%2F20240314_135627-min.jpg?alt=media&token=c17e7a7c-6aaf-4f71-886d-7040d22a6c6c",
+    ],
   },
   {
-    imgURL: headerk50,
-    name: "Kenya at 50",
-    price: "KES 500",
+    id: "product2",
+    name: "Scrabble",
+    price: "KES 150 per day",
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/pushnotifications-3134c.appspot.com/o/chezahive%2F20240314_133828-min.jpg?alt=media&token=e2795adc-2c85-4df2-81fa-d90d69ae3c20",
+      "https://firebasestorage.googleapis.com/v0/b/pushnotifications-3134c.appspot.com/o/chezahive%2F20240314_133847-min.jpg?alt=media&token=860307cd-93d1-4375-bbcf-2e24d21c928b",
+    ],
   },
   {
-    imgURL: headerk50,
-    name: "Kenya at 50",
-    price: "KES 500",
-  },
-  {
-    imgURL: headerk50,
-    name: "Kenya at 50",
-    price: "KES 500",
+    id: "product3",
+    name: "These cards will get you drunk!",
+    price: "KES 150 per day",
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/pushnotifications-3134c.appspot.com/o/chezahive%2F20240314_134026-min.jpg?alt=media&token=657f6ef8-6234-4479-82aa-6ebfa862530c",
+      "https://firebasestorage.googleapis.com/v0/b/pushnotifications-3134c.appspot.com/o/chezahive%2F20240314_134132-min.jpg?alt=media&token=c93fdc50-dce6-4ee9-a622-28f3d18db8a9",
+      "https://firebasestorage.googleapis.com/v0/b/pushnotifications-3134c.appspot.com/o/chezahive%2F20240314_134145-min.jpg?alt=media&token=0d7c45ff-28f4-4e8b-93f6-78bdf04ef786",
+    ],
   },
 ];
 

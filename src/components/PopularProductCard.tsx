@@ -1,21 +1,71 @@
 import { star } from "../assets/icons";
 
 interface PopularProductCardProps {
-  imgURL: string;
   name: string;
   price: string;
+  images: string[];
+  id: string;
 }
 
 const PopularProductCard = ({
-  imgURL,
   name,
   price,
+  images,
+  id,
 }: PopularProductCardProps) => {
-  const displayedImage = imgURL;
-
   return (
     <div className="flex flex-1 flex-col w-full max-sm:w-full">
-      <img src={displayedImage} alt={name} className="w-[280px] h-[280px]" />
+      <div id={id} className="carousel slide" data-ride="carousel">
+        <ol className="carousel-indicators">
+          {/* @ts-ignore */}
+          {images.map((image: string, index: number) => (
+            <li
+              data-target={`#${id}`}
+              data-slide-to={index}
+              className={index === 0 ? "active" : ""}
+              key={index}
+            ></li>
+          ))}
+        </ol>
+        <div className="carousel-inner">
+          {images.map((image: string, index: number) => (
+            <div
+              className={`carousel-item ${index === 0 ? "active" : ""}`}
+              key={index}
+            >
+              <img
+                src={image}
+                alt={`image ${index}`}
+                className="w-[280px] h-[280px] d-block w-100"
+              />
+            </div>
+          ))}
+        </div>
+        <a
+          className="carousel-control-prev"
+          href={`#${id}`}
+          role="button"
+          data-slide="prev"
+        >
+          <span
+            className="carousel-control-prev-icon"
+            aria-hidden="true"
+          ></span>
+          <span className="sr-only">Previous</span>
+        </a>
+        <a
+          className="carousel-control-next"
+          href={`#${id}`}
+          role="button"
+          data-slide="next"
+        >
+          <span
+            className="carousel-control-next-icon"
+            aria-hidden="true"
+          ></span>
+          <span className="sr-only">Next</span>
+        </a>
+      </div>
       <div className="mt-8 flex justify-start gap-2.5">
         <img src={star} alt="rating" width={24} height={24} />
         <p className="font-montserrat text-xl leading-normal text-slate-gray">
