@@ -1,4 +1,5 @@
 import { arrowRight } from "../assets/icons";
+import { RentModal } from "../components";
 import Button from "../components/Button";
 
 const Hero = () => {
@@ -27,7 +28,10 @@ const Hero = () => {
           iconURL={arrowRight}
           backgroundColor="yellow-btn"
           textColor="text-white"
+          dataToggle="modal"
+          dataTarget="#rentModal"
         />
+        <RentModal id="rentModal"/>
       </div>
       <div className="relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary bg-hero bg-cover bg-center"></div>
     </section>

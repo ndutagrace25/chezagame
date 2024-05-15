@@ -11,7 +11,6 @@ import {
 
 import Nav from "./components/Nav";
 
-
 const App = () => (
   <main className="relative">
     <Nav />
@@ -24,10 +23,8 @@ const App = () => (
     <section className="padding">
       <SuperQuality />
     </section>
-    {/*
-    <section className="padding">
-      <SuperQuality />
-    </section>
+    
+    {/*   
     <section className="padding-x py-10">
       <Services />
     </section>

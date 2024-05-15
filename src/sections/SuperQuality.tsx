@@ -1,4 +1,3 @@
-import { headerk50 } from "../assets/images";
 // import Button from "../components/Button";
 import "animate.css";
 import TrackVisibility from "react-on-screen";

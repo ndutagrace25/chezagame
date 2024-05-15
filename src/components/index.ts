@@ -1,3 +1,4 @@
 import NavBar from "./NavBar";
+import RentModal from "./RentModal";
 
-export { NavBar };
+export { NavBar, RentModal };

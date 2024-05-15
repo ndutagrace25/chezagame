@@ -5,6 +5,8 @@ interface Props {
   textColor?: string;
   borderColor?: string;
   fullWidth?: boolean;
+  dataToggle?: string;
+  dataTarget?: string;
 }
 const Button = ({
   label,
@@ -13,6 +15,8 @@ const Button = ({
   textColor,
   borderColor,
   fullWidth,
+  dataToggle,
+  dataTarget,
 }: Props) => {
   return (
     <button
@@ -22,6 +26,8 @@ const Button = ({
         ? `${backgroundColor} ${textColor} ${borderColor}`
         : "bg-purple-900 text-white border-purple-900"
     } rounded-full ${fullWidth && "w-full"}`}
+      data-toggle={dataToggle}
+      data-target={dataTarget}
     >
       {label}
       {iconURL && (
