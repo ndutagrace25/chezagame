@@ -1,8 +1,8 @@
-// import Button from "../components/Button";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
 const SuperQuality = () => {
+
   return (
     <section
       id="about-us"
@@ -29,10 +29,6 @@ const SuperQuality = () => {
         <p className="mt-6 lg:max-w-lg info-text">
           Our dedication to detail and excellence ensures your satisfaction
         </p>
-        {/* <div className="mt-11">
-          {" "}
-          <Button label="View details" />
-        </div> */}
       </div>
       <TrackVisibility partialVisibility once>
         {({ isVisible }) => (
@@ -43,12 +39,17 @@ const SuperQuality = () => {
                 : ""
             }`}
           >
+            {" "}
+            {!isVisible && (
+              <div className="object-contain rounded-lg">Image Loading...</div>
+            )}
             <img
               src="https://firebasestorage.googleapis.com/v0/b/pushnotifications-3134c.appspot.com/o/chezahive%2F20240314_134748-min.jpg?alt=media&token=7451729d-5421-42e7-a69f-1df1705dea93"
               alt="aboutus"
               width={650}
               height={500}
               className="object-contain rounded-lg"
+              style={{ display: isVisible ? "block" : "none" }}
             />
           </div>
         )}
