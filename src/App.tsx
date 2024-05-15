@@ -6,7 +6,7 @@ import {
   // Services,
   // SpecialOffer,
   // Subscribe,
-  // SuperQuality,
+  SuperQuality,
 } from "./sections";
 
 import Nav from "./components/Nav";
@@ -20,6 +20,9 @@ const App = () => (
     </section>
     <section className="padding">
       <PopularProducts />
+    </section>
+    <section className="padding">
+      <SuperQuality />
     </section>
     {/*
     <section className="padding">

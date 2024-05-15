@@ -1,5 +1,5 @@
-import { shoe8 } from "../assets/images";
-import Button from "../components/Button";
+import { headerk50 } from "../assets/images";
+// import Button from "../components/Button";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
@@ -14,8 +14,8 @@ const SuperQuality = () => {
           <span className="xl:bg-white xl:whitespace-nowrap relative z-10 pr-3">
             We provide you
           </span>
-          <span className="text-purple-900">Super </span>
-          <span className="text-purple-900">Fun</span> Games
+          <span className="yellow-text">Super </span>
+          <span className="yellow-text">Fun</span> Games
         </h2>
         <p className="mt-4 lg:max-w-lg info-text">
           Remember afternoons of "Cha Baba Cha Mama", the dusty football
@@ -30,10 +30,10 @@ const SuperQuality = () => {
         <p className="mt-6 lg:max-w-lg info-text">
           Our dedication to detail and excellence ensures your satisfaction
         </p>
-        <div className="mt-11">
+        {/* <div className="mt-11">
           {" "}
           <Button label="View details" />
-        </div>
+        </div> */}
       </div>
       <TrackVisibility partialVisibility once>
         {({ isVisible }) => (
@@ -45,10 +45,10 @@ const SuperQuality = () => {
             }`}
           >
             <img
-              src={shoe8}
-              alt="shoe8"
+              src="https://firebasestorage.googleapis.com/v0/b/pushnotifications-3134c.appspot.com/o/chezahive%2F20240314_134748-min.jpg?alt=media&token=7451729d-5421-42e7-a69f-1df1705dea93"
+              alt="aboutus"
               width={650}
-              height={600}
+              height={500}
               className="object-contain rounded-lg"
             />
           </div>
