@@ -26,7 +26,7 @@ const RentModal = ({ id }: { id: string }) => {
           </div>
           <div className="modal-body d-flex justify-content-center flex-column align-items-center">
             <div>
-              <span className="fw-bold">Phone: </span>+254708807403
+              <span className="fw-bold">Phone: </span>+254700250238
             </div>
             <div><span className="fw-bold">Email:</span> chezahive@gmail.com</div>
           </div>
