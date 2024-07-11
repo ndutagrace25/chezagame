@@ -1,6 +1,7 @@
 import { footerLinks, socialMedia } from "../assets/constants";
 import { copyrightSign } from "../assets/icons";
 import { chezahive } from "../assets/images";
+import FAQ from "../pages/FAQ";
 
 const Footer = () => {
   return (
@@ -9,7 +10,13 @@ const Footer = () => {
         <div className="flex flex-col items-start">
           <a href="/">
             {/* <img src={footerLogo} width={250} height={46} /> */}
-            <img src={chezahive} alt="logo" width={100} height={5} className="rounded"/>
+            <img
+              src={chezahive}
+              alt="logo"
+              width={100}
+              height={5}
+              className="rounded"
+            />
           </a>
           <p className="mt-6 text-base leading-7 font-montserrat text-white-400 sm:max-w-sm">
             Reserve a game, gather your crew & come play Cheza Hive's game
@@ -43,13 +50,16 @@ const Footer = () => {
                     key={link.name}
                     className="mt-3 text-white-400 font-montserrat text-base leading-normal"
                   >
-                    <a>{link.name}</a>
+                    <a data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      {link.name}
+                    </a>
                   </li>
                 ))}
               </ul>
             </div>
           ))}
         </div>
+        <FAQ />
       </div>
       <div className="flex justify-between text-white-400 mt-24 max-sm:flex-col max-sm:items-center">
         <div className="flex flex-1 justify-start items-center gap-2 font-montserrat cursor-pointer">
