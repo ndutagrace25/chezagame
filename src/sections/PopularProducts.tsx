@@ -11,8 +11,8 @@ const PopularProducts = () => {
           Our <span className="yellow-text">Popular</span> Games
         </h2>
         <p className="lg:max-w-lg mt-2 font-montserrat text-slate-gray">
-          Experience top-notch game collections. Discover a world
-          of comfort, fun, and value.
+          All work and no play makes Jack a dull boy. Don't be a Jack. Rent a
+          game today!
         </p>
       </div>
       <TrackVisibility partialVisibility once>
