@@ -20,18 +20,17 @@ const Hero = () => {
           <span className="yellow-text inline-block mt-3">To Rent</span>
         </h1>
         <p className="font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm">
-          Reserve a game, gather your crew & come play Cheza Hive's game
-          collection at these hangout spots.
+          Rent a game, gather your crew & have the time of your life!
         </p>
         <Button
-          label="Rent games"
+          label="Click here to rent"
           iconURL={arrowRight}
           backgroundColor="yellow-btn"
           textColor="text-white"
           dataToggle="modal"
           dataTarget="#rentModal"
         />
-        <RentModal id="rentModal"/>
+        <RentModal id="rentModal" />
       </div>
       <div className="relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary bg-hero bg-cover bg-center"></div>
     </section>

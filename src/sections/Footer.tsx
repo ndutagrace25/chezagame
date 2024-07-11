@@ -19,8 +19,7 @@ const Footer = () => {
             />
           </a>
           <p className="mt-6 text-base leading-7 font-montserrat text-white-400 sm:max-w-sm">
-            Reserve a game, gather your crew & come play Cheza Hive's game
-            collection at these hangout spots.
+          Rent a game, gather your crew & have the time of your life!
           </p>
           <div className="flex items-center gap-5 mt-8">
             {socialMedia.map((icon) => (
