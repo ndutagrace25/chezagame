@@ -49,7 +49,7 @@ export const products = [
   {
     id: "product1",
     name: "Kenya @50",
-    price: "KES 350 per day",
+    price: "KES 400 per day",
     images: [
       "https://firebasestorage.googleapis.com/v0/b/pushnotifications-3134c.appspot.com/o/chezahive%2F20240314_135533-min.jpg?alt=media&token=e1c4f377-aeb7-4819-9d64-64fc8bcb5fdc",
       "https://firebasestorage.googleapis.com/v0/b/pushnotifications-3134c.appspot.com/o/chezahive%2F20240314_135624-min.jpg?alt=media&token=b84fe957-d360-4430-aced-15355c7269f1",
@@ -59,7 +59,7 @@ export const products = [
   {
     id: "product2",
     name: "Scrabble",
-    price: "KES 150 per day",
+    price: "KES 200 per day",
     images: [
       "https://firebasestorage.googleapis.com/v0/b/pushnotifications-3134c.appspot.com/o/chezahive%2F20240314_133828-min.jpg?alt=media&token=e2795adc-2c85-4df2-81fa-d90d69ae3c20",
       "https://firebasestorage.googleapis.com/v0/b/pushnotifications-3134c.appspot.com/o/chezahive%2F20240314_133847-min.jpg?alt=media&token=860307cd-93d1-4375-bbcf-2e24d21c928b",
@@ -68,7 +68,7 @@ export const products = [
   {
     id: "product3",
     name: "These cards will get you drunk!",
-    price: "KES 150 per day",
+    price: "KES 200 per day",
     images: [
       "https://firebasestorage.googleapis.com/v0/b/pushnotifications-3134c.appspot.com/o/chezahive%2F20240314_134026-min.jpg?alt=media&token=657f6ef8-6234-4479-82aa-6ebfa862530c",
       "https://firebasestorage.googleapis.com/v0/b/pushnotifications-3134c.appspot.com/o/chezahive%2F20240314_134132-min.jpg?alt=media&token=c93fdc50-dce6-4ee9-a622-28f3d18db8a9",
@@ -78,7 +78,7 @@ export const products = [
   {
     id: "product4",
     name: "What do you meme?",
-    price: "KES 200 per day",
+    price: "KES 250 per day",
     images: [
       "https://firebasestorage.googleapis.com/v0/b/pushnotifications-3134c.appspot.com/o/chezahive%2F20240314_134501-min.jpg?alt=media&token=424302f9-a958-4f9a-b820-c6ec850f6920",
       "https://firebasestorage.googleapis.com/v0/b/pushnotifications-3134c.appspot.com/o/chezahive%2F20240314_134722-min.jpg?alt=media&token=96cb7405-92cb-4262-9a93-b6b148ee55fa",
@@ -88,7 +88,7 @@ export const products = [
   {
     id: "product5",
     name: "Cards against humanity",
-    price: "KES 200 per day",
+    price: "KES 250 per day",
     images: [
       "https://firebasestorage.googleapis.com/v0/b/pushnotifications-3134c.appspot.com/o/chezahive%2F20240314_135017-min.jpg?alt=media&token=fdb60eea-7bf8-42df-9e3b-9f88f2da731f",
       "https://firebasestorage.googleapis.com/v0/b/pushnotifications-3134c.appspot.com/o/chezahive%2F20240314_135033-min.jpg?alt=media&token=29712ca6-9b53-4848-9915-e495ea69b11b",
