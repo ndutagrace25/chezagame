@@ -1,6 +1,6 @@
 import { footerLinks, socialMedia } from "../assets/constants";
 import { copyrightSign } from "../assets/icons";
-import { footerLogo } from "../assets/images";
+import { chezahive } from "../assets/images";
 
 const Footer = () => {
   return (
@@ -8,11 +8,12 @@ const Footer = () => {
       <div className="flex justify-between items-start gap-20 flex-wrap max-lg:flex-col">
         <div className="flex flex-col items-start">
           <a href="/">
-            <img src={footerLogo} width={250} height={46} />
+            {/* <img src={footerLogo} width={250} height={46} /> */}
+            <img src={chezahive} alt="logo" width={100} height={5} className="rounded"/>
           </a>
           <p className="mt-6 text-base leading-7 font-montserrat text-white-400 sm:max-w-sm">
-            Get shoes ready for the new term at your nearest Converse store.
-            Find Your perfect Size In Store. Get Rewards
+            Reserve a game, gather your crew & come play Cheza Hive's game
+            collection at these hangout spots.
           </p>
           <div className="flex items-center gap-5 mt-8">
             {socialMedia.map((icon) => (
@@ -20,7 +21,12 @@ const Footer = () => {
                 key={icon.src}
                 className="flex justify-center items-center w-12 h-12 bg-white rounded-full"
               >
-                <img src={icon.src} alt={icon.alt} width={24} height={24} />
+                <a
+                  href="https://www.instagram.com/cheza_hive/?utm_source=ig_web_button_share_sheet"
+                  target="_blank"
+                >
+                  <img src={icon.src} alt={icon.alt} width={24} height={24} />
+                </a>
               </div>
             ))}
           </div>

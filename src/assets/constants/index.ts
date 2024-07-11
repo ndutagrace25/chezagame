@@ -1,10 +1,10 @@
 import {
-  facebook,
+  // facebook,
   instagram,
   shieldTick,
   support,
   truckFast,
-  twitter,
+  // twitter,
 } from "../icons";
 import {
   bigShoe2,
@@ -135,37 +135,37 @@ export const reviews = [
 
 export const footerLinks = [
   {
-    title: "Products",
+    title: "Games",
     links: [
-      { name: "Chuck Taylor All Star", link: "/" },
-      { name: "Run Star Hike Platform", link: "/" },
-      { name: "Chuck 70 Tri-Color", link: "/" },
-      { name: "Star Player 76", link: "/" },
-      { name: "Chuck Taylor All Star Lift Platform", link: "/" },
-      { name: "Run Star Legacy Chelsea CX", link: "/" },
+      { name: "Kenya @50", link: "/" },
+      { name: "Scrabble", link: "/" },
+      { name: "These cards will get you drunk!", link: "/" },
+      { name: "What do you meme?", link: "/" },
+      { name: "Cards agains humabity", link: "/" },
+      { name: "and many more...", link: "/" },
     ],
   },
   {
     title: "Help",
     links: [
-      { name: "About us", link: "/" },
+      // { name: "About us", link: "/" },
       { name: "FAQs", link: "/" },
-      { name: "How it works", link: "/" },
-      { name: "Privacy policy", link: "/" },
-      { name: "Payment policy", link: "/" },
+      // { name: "How it works", link: "/" },
+      // { name: "Privacy policy", link: "/" },
+      // { name: "Payment policy", link: "/" },
     ],
   },
   {
     title: "Get in touch",
     links: [
-      { name: "customer@converse.com", link: "mailto:customer@converse.com" },
-      { name: "+92554862354", link: "tel:+92554862354" },
+      { name: "chezahive@gmail.com", link: "mailto:chezahive@gmail.com" },
+      { name: "+254700250238", link: "tel:+254700250238" },
     ],
   },
 ];
 
 export const socialMedia = [
-  { src: facebook, alt: "facebook logo" },
-  { src: twitter, alt: "twitter logo" },
+  // { src: facebook, alt: "facebook logo" },
+  // { src: twitter, alt: "twitter logo" },
   { src: instagram, alt: "instagram logo" },
 ];
