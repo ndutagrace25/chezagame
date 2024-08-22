@@ -51,9 +51,7 @@ export const products = [
     name: "Kenya @50",
     price: "KES 400 per day",
     images: [
-      "https://firebasestorage.googleapis.com/v0/b/pushnotifications-3134c.appspot.com/o/chezahive%2F20240314_135533-min.jpg?alt=media&token=e1c4f377-aeb7-4819-9d64-64fc8bcb5fdc",
-      "https://firebasestorage.googleapis.com/v0/b/pushnotifications-3134c.appspot.com/o/chezahive%2F20240314_135624-min.jpg?alt=media&token=b84fe957-d360-4430-aced-15355c7269f1",
-      "https://firebasestorage.googleapis.com/v0/b/pushnotifications-3134c.appspot.com/o/chezahive%2F20240314_135627-min.jpg?alt=media&token=c17e7a7c-6aaf-4f71-886d-7040d22a6c6c",
+      "https://firebasestorage.googleapis.com/v0/b/pushnotifications-3134c.appspot.com/o/chezahive%2FK%4050%20-%203.png?alt=media&token=84b74c2d-1d39-42b1-b7ae-d320441c1bd2",
     ],
   },
   {
@@ -63,6 +61,14 @@ export const products = [
     images: [
       "https://firebasestorage.googleapis.com/v0/b/pushnotifications-3134c.appspot.com/o/chezahive%2F20240314_133828-min.jpg?alt=media&token=e2795adc-2c85-4df2-81fa-d90d69ae3c20",
       "https://firebasestorage.googleapis.com/v0/b/pushnotifications-3134c.appspot.com/o/chezahive%2F20240314_133847-min.jpg?alt=media&token=860307cd-93d1-4375-bbcf-2e24d21c928b",
+    ],
+  },
+  {
+    id: "product7",
+    name: "Kenyan AF",
+    price: "KES 250 per day",
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/pushnotifications-3134c.appspot.com/o/chezahive%2FKenyan%20AF%20-%202.png?alt=media&token=912075ea-b4e3-4893-84ce-321a10463b77",
     ],
   },
   {
