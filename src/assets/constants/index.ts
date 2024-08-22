@@ -51,7 +51,9 @@ export const products = [
     name: "Kenya @50",
     price: "KES 400 per day",
     images: [
+      "https://firebasestorage.googleapis.com/v0/b/pushnotifications-3134c.appspot.com/o/chezahive%2FKenya%20%4050.png?alt=media&token=6211c5fc-a3b0-4d8d-b3d5-3387a770a84e",
       "https://firebasestorage.googleapis.com/v0/b/pushnotifications-3134c.appspot.com/o/chezahive%2FK%4050%20-%203.png?alt=media&token=84b74c2d-1d39-42b1-b7ae-d320441c1bd2",
+      "https://firebasestorage.googleapis.com/v0/b/pushnotifications-3134c.appspot.com/o/chezahive%2FK%4050%20-%202.png?alt=media&token=04e5068e-81a9-41fd-98ab-e0a9268f50e9"
     ],
   },
   {
@@ -69,6 +71,15 @@ export const products = [
     price: "KES 250 per day",
     images: [
       "https://firebasestorage.googleapis.com/v0/b/pushnotifications-3134c.appspot.com/o/chezahive%2FKenyan%20AF%20-%202.png?alt=media&token=912075ea-b4e3-4893-84ce-321a10463b77",
+    ],
+  },
+  {
+    id: "product8",
+    name: "Magnific Charades",
+    price: "KES 250 per day",
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/pushnotifications-3134c.appspot.com/o/chezahive%2FMagnific%20Charades%20-%201.png?alt=media&token=b27f68cf-8b58-4f50-9e85-0d66fed849ea",
+      "https://firebasestorage.googleapis.com/v0/b/pushnotifications-3134c.appspot.com/o/chezahive%2FMagnific%20Charades%20-%202.png?alt=media&token=891a467c-7979-4eb3-9720-d9c19971c8f9",
     ],
   },
   {
