@@ -80,6 +80,7 @@ export const products = [
     name: "What do you meme?",
     price: "KES 250 per day",
     images: [
+      "https://firebasestorage.googleapis.com/v0/b/pushnotifications-3134c.appspot.com/o/chezahive%2F1000064310.jpg?alt=media&token=e2de454c-ad00-476d-ac9a-f81dad28ec69",
       "https://firebasestorage.googleapis.com/v0/b/pushnotifications-3134c.appspot.com/o/chezahive%2F20240314_134501-min.jpg?alt=media&token=424302f9-a958-4f9a-b820-c6ec850f6920",
       "https://firebasestorage.googleapis.com/v0/b/pushnotifications-3134c.appspot.com/o/chezahive%2F20240314_134722-min.jpg?alt=media&token=96cb7405-92cb-4262-9a93-b6b148ee55fa",
       "https://firebasestorage.googleapis.com/v0/b/pushnotifications-3134c.appspot.com/o/chezahive%2F20240314_134748-min.jpg?alt=media&token=7451729d-5421-42e7-a69f-1df1705dea93",
@@ -93,6 +94,14 @@ export const products = [
       "https://firebasestorage.googleapis.com/v0/b/pushnotifications-3134c.appspot.com/o/chezahive%2F20240314_135017-min.jpg?alt=media&token=fdb60eea-7bf8-42df-9e3b-9f88f2da731f",
       "https://firebasestorage.googleapis.com/v0/b/pushnotifications-3134c.appspot.com/o/chezahive%2F20240314_135033-min.jpg?alt=media&token=29712ca6-9b53-4848-9915-e495ea69b11b",
       "https://firebasestorage.googleapis.com/v0/b/pushnotifications-3134c.appspot.com/o/chezahive%2F20240314_135225-min.jpg?alt=media&token=b56be9a8-533b-42fb-bc96-cd958d9ce048",
+    ],
+  },
+  {
+    id: "product6",
+    name: "Monopoly",
+    price: "KES 250 per day",
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/pushnotifications-3134c.appspot.com/o/chezahive%2F1000064308.jpg?alt=media&token=0065d5c3-30a1-4ce6-880a-fe27b99428cf",
     ],
   },
 ];

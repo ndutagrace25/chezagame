@@ -41,7 +41,7 @@ const FAQ = () => {
         {
           sub_title: "What payment methods are accepted?",
           question:
-            "We accept mobile payments. Pay via our Pochi La Biashara: +254700250238",
+            "We accept mobile payments. Pay via our Till Number: 5193050",
         },
         {
           sub_title: "Can I pay cash?",
@@ -51,7 +51,7 @@ const FAQ = () => {
         {
           sub_title: "Can I have the games longer than 3 days?",
           question:
-            "Yes, you can extend your rental period. Additional charges apply - Ksh xxx. Contact us to arrange an extension.",
+            "Yes, you can extend your rental period. Additional charges apply. Contact us to arrange an extension.",
         },
       ],
     },
