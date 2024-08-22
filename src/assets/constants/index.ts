@@ -53,7 +53,15 @@ export const products = [
     images: [
       "https://firebasestorage.googleapis.com/v0/b/pushnotifications-3134c.appspot.com/o/chezahive%2FKenya%20%4050.png?alt=media&token=6211c5fc-a3b0-4d8d-b3d5-3387a770a84e",
       "https://firebasestorage.googleapis.com/v0/b/pushnotifications-3134c.appspot.com/o/chezahive%2FK%4050%20-%203.png?alt=media&token=84b74c2d-1d39-42b1-b7ae-d320441c1bd2",
-      "https://firebasestorage.googleapis.com/v0/b/pushnotifications-3134c.appspot.com/o/chezahive%2FK%4050%20-%202.png?alt=media&token=04e5068e-81a9-41fd-98ab-e0a9268f50e9"
+      "https://firebasestorage.googleapis.com/v0/b/pushnotifications-3134c.appspot.com/o/chezahive%2FK%4050%20-%202.png?alt=media&token=04e5068e-81a9-41fd-98ab-e0a9268f50e9",
+    ],
+  },
+  {
+    id: "product9",
+    name: "Kenya @50 Jamuhuri Edition",
+    price: "KES 400 per day",
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/pushnotifications-3134c.appspot.com/o/chezahive%2F1000064305.jpg?alt=media&token=ff562f6c-1b5d-427e-949a-4b1d920f6b12",
     ],
   },
   {
@@ -80,6 +88,14 @@ export const products = [
     images: [
       "https://firebasestorage.googleapis.com/v0/b/pushnotifications-3134c.appspot.com/o/chezahive%2FMagnific%20Charades%20-%201.png?alt=media&token=b27f68cf-8b58-4f50-9e85-0d66fed849ea",
       "https://firebasestorage.googleapis.com/v0/b/pushnotifications-3134c.appspot.com/o/chezahive%2FMagnific%20Charades%20-%202.png?alt=media&token=891a467c-7979-4eb3-9720-d9c19971c8f9",
+    ],
+  },
+  {
+    id: "product10",
+    name: "Icebreaker",
+    price: "KES 250 per day",
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/pushnotifications-3134c.appspot.com/o/chezahive%2F1000064311%20(1).jpg?alt=media&token=c8d03cac-116e-4891-86ab-26bbaabc4582",
     ],
   },
   {
